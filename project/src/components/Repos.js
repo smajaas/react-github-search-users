@@ -16,8 +16,8 @@ const Repos = () => {
       value: '200',
     },
     {
-      label: 'REACT',
-      value: '180',
+      label: 'PYTHON',
+      value: '110',
     },
     {
       label: 'CSS',
@@ -27,7 +27,8 @@ const Repos = () => {
   return (
     <section className='section'>
       <Wrapper className='section-center'>
-        <ExampleChart data={chartData} />
+        {/* <ExampleChart data={chartData} /> */}
+        <Pie3D data={chartData} />
       </Wrapper>
     </section>
   );

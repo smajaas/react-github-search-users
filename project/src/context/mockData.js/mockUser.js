@@ -18,7 +18,7 @@ export default {
   type: 'User',
   site_admin: false,
   name: 'Mohammed Ajaas',
-  company: null,
+  company: 'DSRC',
   blog: 'https://digitalcommit.com/',
   location: 'Chennai',
   email: null,
@@ -30,5 +30,5 @@ export default {
   followers: 1,
   following: 8,
   created_at: '2019-06-25T19:13:21Z',
-  updated_at: '2023-05-30T06:22:00Z',
+  updated_at: '2023-07-03T03:50:49Z',
 };
